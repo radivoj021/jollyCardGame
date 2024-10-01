@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Game</title>
+
+    <link rel="stylesheet"  href="main.css" >
+</head>
+<body>
+    <h1>Poker Game</h1>
+
+    <div id="poker" class="poker">
+
+        <div id="credit">
+             
+        </div>
+
+        <br>
+
+        <div id="chip">
+            
+        </div>
+
+        <br>
+
+        <div id="gameField">
+            <div id="twoPairs">Two pairs</div>
+            <div id="threeOfAKind">Three of A kind</div>        
+            <div id="highPair">Hight Pair</div>
+        </div>
+
+        <br>
+
+        <button id="deal" onclick="dealCards()">aDeal</button> <button id="start" onclick="dealCards2()">restart</button>
+
+        <br>
+        <br>
+
+        <div id="cardField">
+        </div>
+
+
+    </div>
+
+      
+    <script src="toggleHoldCards.js"></script>
+    <script src="createCards.js"></script>
+    <script src="dealCards.js"></script>
+    
+    <script src="main.js"></script>  
+</body>
+</html>
